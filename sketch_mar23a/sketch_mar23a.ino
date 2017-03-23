@@ -61,7 +61,7 @@ void loop() {
   rest.handle(client);
   Serial.println("API OK");
   
-  wifiManager.startConfigPortal("w3GET");
+  //wifiManager.startConfigPortal("w3GET");
 }
 /*FUNÇOES DA API*/
 int pegaValorSensorControl(String command) {
